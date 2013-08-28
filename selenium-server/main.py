@@ -17,8 +17,7 @@ class Application():
     def test_index(self):
 
         driver = webdriver.Remote(self.hub, DesiredCapabilities.CHROME)
-        driver.get(self.web+"example/index.html")
-        element = driver.find_element_by_id("footer")
+        driver.get("www.google.com")
         driver.execute_script('$("html, body").animate({ scrollTop: $(document).height() }, 10000);')
         driver.quit()
 
