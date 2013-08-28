@@ -24,17 +24,13 @@ DIR_NAME_HUB = "/wd/hub"
 PORT_WEB = "8000"
 DIR_NAME_WEB="/example/"
 
+
+
 Paso 4
-=======
-Ejecute por terminal el comando
-
-python selenium-server/main.py
-
-Paso 5
 =======
 Copie la carpeta selenium-node a la direccion de su preferencia en windows
 
-Paso 6
+Paso 5
 =======
 Cree el archivo selenium-node/local_settings.txt y escriba dentro de él la url para conectarse al hub.
 
@@ -42,9 +38,18 @@ Ejemplo:
 http://192.168.1.2:4444/grid/register
 
 
-Paso 7
+Paso 6
 =======
 Ejecute el batch exec.bat
+
+Paso 7
+=======
+Ejecute por terminal el comando
+
+python selenium-server/main.py
+
+Y listo =)
+
 
 
 
