@@ -3,7 +3,7 @@ Paso 1
 Descargue la ultima version de selenium-server y guardelo en la carpeta selenium-jar
 
 Paso 2
-========
+=======
 Descargue los webdrivers de los navegadores con los que trabajara y guardelos en la carpeta selenium-node/drivers
 
 Paso 3
@@ -13,7 +13,7 @@ Ejemplo:
 http://192.168.1.2:4444/grid/register
 
 Paso 4
-======
+=======
 Cree el archivo local_settings.py para definir los parametros de conexion al servidor hub y la pagina de test
 
 Ejemplo:
