@@ -1,5 +1,16 @@
-Quick Start
-===========
+
+Descripción
+=============
+
+Este proyecto nos brinda un setup básico de test de selenium en python, utilizando el modelo hub -node.
+
+Notas
+========
+El hub fue testeado en Mac y el node en Windows
+
+
+Inicio Rápido
+=============
 
 
 Paso 1
