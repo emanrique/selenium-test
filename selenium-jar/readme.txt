@@ -1,1 +1,0 @@
-En esta carpeta se debe encontrar el selenium-server.jar
