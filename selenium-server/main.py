@@ -14,10 +14,10 @@ global_settings = dict((setting.lower(), getattr(settings, setting))
 
 class Application():
 
-    def test_home_sura(self):
+    def test_index(self):
 
         driver = webdriver.Remote(self.hub, DesiredCapabilities.CHROME)
-        driver.get(self.web+"personas/index.html")
+        driver.get(self.web+"example/index.html")
         element = driver.find_element_by_id("footer")
         driver.execute_script('$("html, body").animate({ scrollTop: $(document).height() }, 10000);')
         driver.quit()
@@ -28,7 +28,7 @@ class Application():
         self.settings = settings
         self.hub = "http://"+str(self.settings.get('ip_server'))+":"+str(self.settings.get('port_hub'))+str(self.settings.get('dir_name_hub'))
         self.web = "http://"+str(self.settings.get('ip_server'))+":"+str(self.settings.get('port_web'))+str(self.settings.get('dir_name_web'))
-        self.test_home_sura()
+        self.test_index()
 
 
 if __name__ == '__main__':
